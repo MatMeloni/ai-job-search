@@ -44,9 +44,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, SQL, Power BI (dashboards/KPI monitoring), Power Apps/Power Platform, process automation, Next.js/Node.js full-stack development, translating business requirements into technical solutions
+**Moderate match areas:** Nest.js/microservices architecture, Supabase/PostgreSQL, AI agent tooling (N8N, Google Gemini), cloud deployment at scale
+**Weak match areas:** Advanced/formal data science or ML modeling, English for international-facing roles (currently Limited Working), large-scale enterprise system design (still a student and early-career)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -58,9 +58,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Data Analyst / BI roles (progression from Junior to Lead Data Analyst at RS Aeron), process automation
+**Moderate:** Business Analyst / Tech BA (informal stakeholder-bridging experience, no formal BA title yet), Power Platform specialist roles
+**Entry-level:** Full-Stack Developer roles (current NewLegal internship is real hands-on experience - Next.js, microservices, cloud deploy - but at internship level, not yet a formal mid/senior developer role)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,19 +91,20 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Find a role that blends technology and business (bridge between strategy and technical delivery)
+- Grow as a Full-Stack Developer (Next.js, Nest.js, Python, Supabase/PostgreSQL)
+- Specialize as a Power Platform / Data specialist (Power BI, Power Apps)
+- Alternatively, grow into a Business Analyst role
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: Process automation, AI agent/tooling work (N8N, Gemini), PropTech/real-estate-sector projects, building dashboards and data-driven tools, bridging business needs to technical solutions
+- Tasks that drain: *(not yet specified - ask if relevant during a specific evaluation)*
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Minimum salary expectation of R$5,000/month (BRL); no preference between CLT and PJ contract models
+- **Flexibility**: Remote or hybrid roles within the São Paulo region (ideal: São Paulo metro or fully remote; acceptable: hybrid with occasional office days); currently balancing a full-time internship (NewLegal) with full-time undergraduate studies (Computer Engineering, expected Dec 2027)
+- **Professional development**: Growth priorities are full-stack development, Power Platform/data specialization, AI agent tooling, and PropTech/real-estate-sector domain experience
 
 ### 6. Salary Benchmark (Optional)
 

@@ -39,6 +39,28 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
+## STAR Candidates (Complete Manually)
+
+### 35% Process Time Reduction via Python/SQL Automation
+**Source:** LinkedIn - Lead Data Analyst, RS Aeron Solução em Comunicação LTDA
+**What happened:** Mapped operational bottlenecks and automated 12+ analysis processes using Python and SQL, cutting processing time by 35%.
+**Why it matters:** Good for "tell me about a time you improved a process", "give an example of automation you built", "how do you approach efficiency"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Port Truck-Queue Monitoring System (PIBITI Research)
+**Source:** Certificate (PIBITI 2024/2025, Mackenzie) + LinkedIn
+**What happened:** Designed a system to control and monitor truck queues for loading/unloading at ports, as an advised undergraduate research project, presented as a poster at Jornada Inovamack 2025.
+**Why it matters:** Good for "tell me about a project you're proud of", "describe independent/research work", domain-relevant questions for logistics/ports roles
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"

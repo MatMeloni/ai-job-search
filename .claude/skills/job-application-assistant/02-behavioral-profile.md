@@ -10,6 +10,14 @@ framework_version: 1.0.0
 ## Overview
 [YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
 
+## Target Role Types
+Beyond Business Analyst / Tech BA positions, strong interest and fit for:
+- **Full-Stack Developer** - Next.js, Nest.js, Python, Supabase/PostgreSQL
+- **Power Platform Specialist** - Power BI dashboard development, complex Power Apps applications
+- **Data Analyst**
+
+**Key differentiators to lead with when relevant:** real estate / PropTech projects, and process automation work.
+
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |

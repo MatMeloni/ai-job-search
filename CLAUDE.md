@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Matheus Meloni
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Matheus Meloni, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,67 +16,87 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Matheus Barbosa Meloni (goes by "Matheus Meloni" on LinkedIn/public profile; use full legal name on CVs/cover letters)
+- **Location:** São Paulo, Brazil (open to São Paulo metro area or fully remote; hybrid with occasional office days is acceptable)
+- **Languages:** Portuguese (Native/Bilingual), English (Limited Working)
+- **CV language:** Portuguese <!-- English unless your market expects otherwise; /setup asks -->
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Software Development Intern (estágio) at NewLegal, functioning at full-developer scope (architecture, deployment, database); also a full-time undergraduate student (Computer Engineering, expected Dec 2027)
+- **LinkedIn headline:** "Data & IA / Python • SQL • Power Platform / Eng. Computação"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Bachelor's in Computer Engineering** (2023-2027, in progress) - Universidade Presbiteriana Mackenzie
+  - Research (PIBITI 2024/2025): "Sistema de Controle e Monitoramento de Filas de Caminhões para Descarregamento e Carga em Portos" (port truck-queue control and monitoring system), advised by Prof. Victor Inacio de Oliveira. Presented as a poster at Jornada Inovamack 2025 and selected as an award-winning project by the evaluation board.
+  - Topics: Data engineering, process automation, port logistics
+- **High School Diploma** (2014-2017) - Colégio Objetivo
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Developer (Estágio/Internship)** (Oct 2025 - Present) - **NewLegal** (São Paulo, Brazil)
+  - Independently designed and architected a full-stack application (Next.js frontend, microservices backend) for the company's core operations and its primary client
+  - Improved database efficiency by restructuring entities and their relationships
+  - Owns cloud deployment reliability: error-free releases, load balancing, competitive performance, all on free-tier infrastructure to control cost
+- **Lead Data Analyst** (May 2025 - Oct 2025) - **RS Aeron Solução em Comunicação LTDA** (São Paulo, SP)
+  - Acted as the bridge between business and technical teams, leading requirements-gathering
+  - Participated in C-level strategy meetings, translating data into insights that shaped corporate strategy and campaign ROI
+  - Automated 12+ analysis processes with Python and SQL, cutting processing time by 35%
+- **Data Analyst → Junior Data Analyst** (Sep 2023 - May 2025) - **RS Aeron Solução em Comunicação LTDA** (São Paulo, Brazil)
+  - Earlier stages of the same progression at RS Aeron, building toward the Lead Data Analyst role above
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, SQL, Next.js, Node.js
+- **Secondary:** Nest.js, Supabase/PostgreSQL, Power BI, Power Apps, Power Platform
+- **Domain:** Data engineering, business analysis, process automation, AI agent tooling (N8N, Google Gemini), port logistics, PropTech/real estate
+- **Software:** Power BI, Power Apps, Power Automate/Power Platform, cloud deployment tooling
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **From Excel to SQL**
+- **Técnicas Avançadas de Power BI** - completed 2020
+- **Become a Power BI Specialist**
+- **Gestão de Projetos**
+- **Fundamentos de Administração: Conceitos e Definições**
+- **Desafio: Agentes de IA com N8N na Prática** (Rocketseat) - completed Sep 2025
+- **Imersão Dev Agentes de IA Google** (Alura, in partnership with Google Gemini) - 4h - completed Oct 2025
+- **AI Summit** (BIX Tecnologia) - 3h - completed Nov 2025
+- **2º Congresso Nacional Integra Portos (CNIT 2024)** - 91h - Nov 2024
+- **I SENAPORT** - 8h - May 2025
+- **3º Congresso Nacional Integra Portos (CNIT 2025)** - 10h - Oct 2025
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Meloni, M., Oliveira, V.I. (2025). "Automação de transcrição e análise de reuniões utilizando inteligência artificial." Presented (work-in-progress category) at VII Simpósio Acadêmico da Faculdade Engenheiro Salvador Arena (VII SIMAC), Nov 2025.
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Award-winning project, Poster session (evaluation board selection) - "Sistema de Controle e Monitoramento de Filas de Caminhões para Descarregamento e Carga em Portos" - Jornada Inovamack 2025 (Oct 2025)
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Business-technical bridge-builder** - Consistently positions themselves as the connection between business strategy and scalable technical delivery (self-described)
+- **Strengths:** Process automation, translating between business and engineering teams, fast adoption of new tools (AI agents, Power Platform)
+- **Growth areas:** Still early-career as a formal software developer - framed positively as rapid, hands-on growth through real production work (architecture, deployment, database) during the NewLegal internship
+- **Thrives in:** Environments blending technical execution with business impact; fast-paced, automation/tooling-forward teams
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Process automation and AI-agent tooling (N8N, Google Gemini)
+- Bridging business needs and technical delivery
+- Building data-driven dashboards and full-stack applications
+- PropTech / real estate sector projects
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Technology / SaaS: full-stack development and Power Platform / data roles
+- PropTech / Real Estate: builds on prior real-estate inspection experience (BNI) and stated interest in property-tech projects
+- Logistics / Port operations: informed by PIBITI research and CNIT/SENAPORT participation
 
 ### Deal-breakers
 <!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Minimum salary expectation: R$5,000/month (BRL)
+- Must be remote or hybrid within the São Paulo region (no full relocation or on-site-only roles outside SP)
+- No preference between CLT and PJ contract models
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

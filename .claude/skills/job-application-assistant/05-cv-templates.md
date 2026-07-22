@@ -116,11 +116,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Full-Stack Developer roles:**
+> Desenvolvedor Full-Stack em formação (Engenharia da Computação, Mackenzie), atualmente arquitetando e implementando uma aplicação completa em Next.js com backend em microsserviços para operações críticas de negócio. Experiência prática com Python, SQL, Node.js e deploy em nuvem, unindo consistentemente entrega técnica a necessidades reais de negócio.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Power Platform / Data Specialist roles:**
+> Especialista em dados e Power Platform com histórico de progressão de Analista Júnior a Lead Data Analyst, automatizando mais de 12 processos com Python e SQL e reduzindo o tempo de processamento em 35%. Desenvolvo dashboards executivos em Power BI e aplicações corporativas em Power Apps, traduzindo necessidades de negócio em soluções técnicas de alto impacto.
+
+**For Business Analyst roles:**
+> Profissional com histórico consistente de atuar como ponte entre áreas de negócio e equipes técnicas, liderando levantamento de requisitos e traduzindo dados complexos em insights estratégicos para a alta gestão. Combino base técnica sólida (Python, SQL, Power BI) com visão de negócio, entregando soluções de dados que geram valor real para a organização.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

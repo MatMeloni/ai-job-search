@@ -11,10 +11,9 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **linkedin.com/jobs** - LinkedIn job listings (filter: Brasil / São Paulo); also covered by `linkedin-search` CLI - primary source for now
+- **indeed.com.br** - general WebSearch fallback (no dedicated CLI yet)
+- **Gupy / Catho / InfoJobs** - major Brazilian job boards, not yet scaffolded with a CLI; good `/add-portal` candidates if LinkedIn coverage proves insufficient
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -23,53 +22,56 @@ Secondary (company career pages via Google):
 
 Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Full-Stack Developer
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match your current hands-on experience (Next.js/microservices at NewLegal) and stated top career direction.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:indeed.com.br "desenvolvedor full-stack" São Paulo
+site:indeed.com.br "Next.js" OR "Nest.js" desenvolvedor São Paulo
+site:linkedin.com/jobs "desenvolvedor full-stack" Brasil
+site:linkedin.com/jobs "full-stack developer" remoto Brasil
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Power Platform / Data Analyst
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match your strongest track record (Junior to Lead Data Analyst progression at RS Aeron; Power BI/Power Apps skills).
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:indeed.com.br "Power BI" analista São Paulo OR "Grande São Paulo"
+site:indeed.com.br "Power Apps" OR "Power Platform" especialista Brasil
+site:linkedin.com/jobs "analista de dados" Power BI São Paulo Brasil
+site:linkedin.com/jobs "Power Platform specialist" Brasil
+```
+
+### Priority 3: Business Analyst
+
+Adjacent role you're targeting as a business-technology bridge.
+
+```
+site:indeed.com.br "business analyst" OR "analista de negócios" São Paulo
+site:linkedin.com/jobs "business analyst" Python SQL Brasil
+```
+
+### Priority 4: Broader Technical / PropTech
+
+Wider net, including PropTech/real-estate-tech companies (a stated differentiator) and general junior/estágio-level technical roles.
+
+```
+site:indeed.com.br "PropTech" desenvolvedor OR analista São Paulo
+site:linkedin.com/jobs Python SQL desenvolvedor São Paulo Brasil
+site:linkedin.com/jobs "automação de processos" analista OR desenvolvedor Brasil
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is within reasonable commute distance from your home, or fully remote. Define acceptable areas:
+- São Paulo (city) and surrounding areas - ideal
+- Fully remote (anywhere in Brasil) - ideal
+- Hybrid roles requiring occasional office days in São Paulo - acceptable
+- Grande São Paulo / ABC (Santo André, São Bernardo do Campo, São Caetano do Sul) - acceptable
+- Campinas or Santos/Litoral (borderline - ~1-2h by transit/car, only if hybrid with limited office days)
+- Other Brazilian states / on-site-only roles outside São Paulo (too far - would require relocation)
 
 ## Date Filter
 
